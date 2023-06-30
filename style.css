@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;500&display=swap');
 
-* {
-    padding: 0;
-    margin: 0;
-    font-family: 'Inter', sans-serif;
-}
+
 
                /* Cabeçalho */
+
+body {
+    font-family: 'Inter', sans-serif;
+}
 
 header {
  background-color: black;
@@ -43,13 +43,13 @@ header nav ul {
     list-style: none;
 }
 
-.place-header {
+.place-headerr {
     width: 10rem;
-    height: 2.3rem;
-    padding: 0 15px;
+    height: 2.6rem;
+    padding: 0 10px;
 }
 
-.button-header {
+.button-headerr {
     padding: 12px 9px;
     color: white;
     background-color: black;
@@ -119,10 +119,11 @@ header nav ul {
     .produtos-itens {
         text-align: start;
         display: flex;
-        gap: 1rem;
+        gap: 10px;
         flex-direction: column;
         flex-wrap: wrap;
         max-width: 21rem;
+        border: 1px solid #f3f2f2;
     }
 
     .imagem-produtos {
